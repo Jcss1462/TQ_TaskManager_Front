@@ -18,5 +18,26 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    margin: 0;
+    padding: 0;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    height: 10vh;
+    width: 100vw;
+}
+
+.containerLayout {
+    height: 85vh; /* 85% de la altura del viewport */
+    width: 100vw; /* 100% del ancho del viewport */
+    flex-grow: 1; /* Se expande para ocupar el espacio restante */
+}
+
+footer {
+    height: 5vh; /* 5% de la altura del viewport */
+    width: 100vw; /* 100% del ancho del viewport */
+    flex-shrink: 0;
 }
